@@ -8,5 +8,5 @@
 [![REUSE Compliance Check](https://github.com/diz-unimr/machbarkeit/actions/workflows/reuse.yml/badge.svg)](https://github.com/diz-unimr/machbarkeit/actions/workflows/reuse.yml)
 
 To create Data and import them to MDR database, need the followed steps:
-1. Read Ontology (JSON File): Onology Trees from FDPG [![ui_trees](https://github.com/diz-unimr/ontology_to_mdr_db/tree/main/ontology/ui_trees)]
+1. Read Ontology (JSON File): Onology Trees from FDPG [![ontology tree](https://github.com/diz-unimr/ontology_to_mdr_db/tree/main/ontology/ui_trees)]
 2. 
