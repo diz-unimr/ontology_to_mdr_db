@@ -1,0 +1,249 @@
+{
+    "Diagnose": {
+        "attributeDefinitions": [],
+        "name": "Diagnose",
+        "timeRestrictionAllowed": true,
+        "valueDefinition": null
+    },
+    "Prozedur": {
+        "attributeDefinitions": [],
+        "name": "Prozedur",
+        "timeRestrictionAllowed": true,
+        "valueDefinition": null
+    },
+    "Gegenwärtiges chronologisches Alter": {
+        "attributeDefinitions": [],
+        "name": "Gegenwärtiges chronologisches Alter",
+        "timeRestrictionAllowed": false,
+        "valueDefinition": {
+            "allowedUnits": [
+                {
+                    "code": "a",
+                    "display": "a",
+                    "system": "http://unitsofmeasure.org",
+                    "version": null
+                },
+                {
+                    "code": "mo",
+                    "display": "mo",
+                    "system": "http://unitsofmeasure.org",
+                    "version": null
+                },
+                {
+                    "code": "wk",
+                    "display": "wk",
+                    "system": "http://unitsofmeasure.org",
+                    "version": null
+                },
+                {
+                    "code": "d",
+                    "display": "d",
+                    "system": "http://unitsofmeasure.org",
+                    "version": null
+                }
+            ],
+            "max": null,
+            "min": null,
+            "optional": false,
+            "precision": 1,
+            "referenceCriteriaSet": null,
+            "selectableConcepts": [],
+            "type": "quantity"
+        }
+    },
+    "Geschlecht": {
+        "attributeDefinitions": [],
+        "name": "Geschlecht",
+        "timeRestrictionAllowed": false,
+        "valueDefinition": {
+            "allowedUnits": [],
+            "max": null,
+            "min": null,
+            "optional": false,
+            "precision": 1,
+            "referenceCriteriaSet": null,
+            "selectableConcepts": [
+                {
+                    "code": "female",
+                    "display": "Female",
+                    "system": "http://hl7.org/fhir/administrative-gender",
+                    "version": "4.0.1"
+                },
+                {
+                    "code": "male",
+                    "display": "Male",
+                    "system": "http://hl7.org/fhir/administrative-gender",
+                    "version": "4.0.1"
+                },
+                {
+                    "code": "other",
+                    "display": "Other",
+                    "system": "http://hl7.org/fhir/administrative-gender",
+                    "version": "4.0.1"
+                },
+                {
+                    "code": "unknown",
+                    "display": "Unknown",
+                    "system": "http://hl7.org/fhir/administrative-gender",
+                    "version": "4.0.1"
+                }
+            ],
+            "type": "concept"
+        }
+    },
+    "Einwilligung": {
+        "attributeDefinitions": [],
+        "name": "Einwilligung",
+        "timeRestrictionAllowed": false,
+        "valueDefinition": null
+    },
+    "Serum or Plasma by Immunoassay": {
+        "attributeDefinitions": [],
+        "name": "Serum or Plasma by Immunoassay",
+        "timeRestrictionAllowed": true,
+        "valueDefinition": {
+            "allowedUnits": [],
+            "max": null,
+            "min": null,
+            "optional": true,
+            "precision": 1,
+            "referenceCriteriaSet": null,
+            "selectableConcepts": [
+                {
+                    "code": "260373001",
+                    "display": "Detected (qualifier value)",
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20220131"
+                },
+                {
+                    "code": "419984006",
+                    "display": "Inconclusive (qualifier value)",
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20220131"
+                },
+                {
+                    "code": "260415000",
+                    "display": "Not detected (qualifier value)",
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20220131"
+                }
+            ],
+            "type": "concept"
+        }
+    },
+    "Eosinophils [#/volume] in Blood": {
+        "attributeDefinitions": [],
+        "name": "Eosinophils [#/volume] in Blood",
+        "timeRestrictionAllowed": true,
+        "valueDefinition": {
+            "allowedUnits": [
+                {
+                    "code": "10*3/uL",
+                    "display": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "version": null
+                }
+            ],
+            "max": null,
+            "min": null,
+            "optional": true,
+            "precision": 1,
+            "referenceCriteriaSet": null,
+            "selectableConcepts": [],
+            "type": "quantity"
+        }
+    },
+    "Granulozyten abs.": {
+        "attributeDefinitions": [],
+        "name": "Granulozyten abs.",
+        "timeRestrictionAllowed": true,
+        "valueDefinition": {
+            "allowedUnits": [
+                {
+                    "code": "10*3/uL",
+                    "display": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "version": null
+                }
+            ],
+            "max": null,
+            "min": null,
+            "optional": true,
+            "precision": 1,
+            "referenceCriteriaSet": null,
+            "selectableConcepts": [],
+            "type": "quantity"
+        }
+    },
+
+    "Bioprobe": {
+        "attributeDefinitions": [
+            {
+                "allowedUnits": [],
+                "attributeCode": {
+                    "code": "festgestellteDiagnose",
+                    "display": "Festgestellte Diagnose",
+                    "system": "http://hl7.org/fhir/StructureDefinition",
+                    "version": null
+                },
+                "max": null,
+                "min": null,
+                "optional": true,
+                "precision": 1,
+                "referenceCriteriaSet": "http://fdpg.mii.cds/CriteriaSet/Diagnose/icd-10-gm",
+                "selectableConcepts": [],
+                "type": "reference"
+            },
+            {
+                "allowedUnits": [],
+                "attributeCode": {
+                    "code": "icd-o-3",
+                    "display": "icd-o-3",
+                    "system": "http://hl7.org/fhir/StructureDefinition",
+                    "version": null
+                },
+                "max": null,
+                "min": null,
+                "optional": true,
+                "precision": 1,
+                "referenceCriteriaSet": null,
+                "selectableConcepts": [
+                    {
+                        "code": "C76.2",
+                        "display": "Abdomen o.n.A.",
+                        "system": "http://hl7.org/fhir/sid/icd-o-3",
+                        "version": "Erste_Revision"
+                    },
+                    {
+                        "code": "C24.1",
+                        "display": "Ampulla Vateri",
+                        "system": "http://hl7.org/fhir/sid/icd-o-3",
+                        "version": "Erste_Revision"
+                    },
+                    {
+                        "code": "C21.1",
+                        "display": "Analkanal",
+                        "system": "http://hl7.org/fhir/sid/icd-o-3",
+                        "version": "Erste_Revision"
+                    },
+                    {
+                        "code": "C76-C80",
+                        "display": "Anderer oder mangelhaft bezeichneter Sitz",
+                        "system": "http://hl7.org/fhir/sid/icd-o-3",
+                        "version": "Erste_Revision"
+                    },
+                    {
+                        "code": "C15.5",
+                        "display": "\\u00d6sophagus, unteres intrathorakales Drittel",
+                        "system": "http://hl7.org/fhir/sid/icd-o-3",
+                        "version": "Erste_Revision"
+                    }
+                ],
+                "type": "concept"
+            }
+        ],
+        "name": "Bioprobe",
+        "timeRestrictionAllowed": true,
+        "valueDefinition": null
+    }
+}

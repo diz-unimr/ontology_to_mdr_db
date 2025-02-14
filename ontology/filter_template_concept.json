@@ -1,0 +1,48 @@
+{
+    "attributeDefinitions": [],
+    "name": "Diagnose",
+    "timeRestrictionAllowed": true,
+    "valueDefinition": null
+}
+/* Type liegt innerhalb von 'valueDefinition' */
+/* Type Concept: Gender */
+{
+    "attributeDefinitions": [],
+    "name": "Person1",
+    "timeRestrictionAllowed": false,
+    "valueDefinition": {
+        "allowedUnits": [],
+        "max": null,
+        "min": null,
+        "optional": false,
+        "precision": 1,
+        "referenceCriteriaSet": null,
+        "selectableConcepts": [
+            {
+                "code": "female",
+                "display": "Female",
+                "system": "http://hl7.org/fhir/administrative-gender",
+                "version": "4.0.1"
+            },
+            {
+                "code": "male",
+                "display": "Male",
+                "system": "http://hl7.org/fhir/administrative-gender",
+                "version": "4.0.1"
+            },
+            {
+                "code": "other",
+                "display": "Other",
+                "system": "http://hl7.org/fhir/administrative-gender",
+                "version": "4.0.1"
+            },
+            {
+                "code": "unknown",
+                "display": "Unknown",
+                "system": "http://hl7.org/fhir/administrative-gender",
+                "version": "4.0.1"
+            }
+        ],
+        "type": "concept"
+    }
+}

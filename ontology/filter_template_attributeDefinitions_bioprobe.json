@@ -1,0 +1,125 @@
+/* Bioprobe */
+{
+    "attributeDefinitions": [
+        {
+            "allowedUnits": [],
+            "attributeCode": {
+                "code": "festgestellteDiagnose",
+                "display": "Festgestellte Diagnose",
+                "system": "http://hl7.org/fhir/StructureDefinition",
+                "version": null
+            },
+            "max": null,
+            "min": null,
+            "optional": true,
+            "precision": 1,
+            "referenceCriteriaSet": "http://fdpg.mii.cds/CriteriaSet/Diagnose/icd-10-gm",
+            "selectableConcepts": [],
+            "type": "reference"
+        },
+        {
+            "allowedUnits": [],
+            "attributeCode": {
+                "code": "icd-o-3",
+                "display": "icd-o-3",
+                "system": "http://hl7.org/fhir/StructureDefinition",
+                "version": null
+            },
+            "max": null,
+            "min": null,
+            "optional": true,
+            "precision": 1,
+            "referenceCriteriaSet": null,
+            "selectableConcepts": [
+                {
+                    "code": "C76.2",
+                    "display": "Abdomen o.n.A.",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C24.1",
+                    "display": "Ampulla Vateri",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C21.1",
+                    "display": "Analkanal",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C21",
+                    "display": "Analkanal und Anus",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C76-C80",
+                    "display": "Anderer oder mangelhaft bezeichneter Sitz",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C16.3",
+                    "display": "Antrum ventriculi",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C21.0",
+                    "display": "Anus o.n.A.",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C18.1",
+                    "display": "Appendix vermiformis",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C30-C39",
+                    "display": "Atemwege [Respirationstrakt] und intrathorakale Organe",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C39.8",
+                    "display": "Atemwege [Respirationstrakt] und intrathorakale Organe, mehrere Bereiche \\u00fcberlappend",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C69.9",
+                    "display": "Auge o.n.A.",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C69",
+                    "display": "Auge und Augenanhangsgebilde",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C69.8",
+                    "display": "Auge und Augenanhangsgebilde, mehrere Teilbereiche \\u00fcberlappend",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                },
+                {
+                    "code": "C69-C72",
+                    "display": "Auge, Gehirn und sonstige Teile des Zentralnervensystems",
+                    "system": "http://hl7.org/fhir/sid/icd-o-3",
+                    "version": "Erste_Revision"
+                }
+            ],
+            "type": "concept"
+        }
+    ],
+    "name": "Bioprobe",
+    "timeRestrictionAllowed": true,
+    "valueDefinition": null
+}

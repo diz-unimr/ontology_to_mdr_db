@@ -1,0 +1,85 @@
+<search-tree-overlay-content>
+	// Ontology Group Name Tabs
+	<search-tree-header>
+		<div class=”display-label-box”> </div>  // All
+		<div for=”category”>
+			<div> Diagnose</div>
+			<div>Prozedur</div>
+			<div>......</div>
+		</div>
+	</search-tree-header>
+
+	// Ontology List Container
+	<mat-tree>
+
+		// If leaf = true
+		<mat-tree-node>
+			<li>
+				<div>
+					<button disabled></button> // No Expand Button
+					<search-tree-term-entry>
+						// selectable = true
+						<div>
+							<div class=”checkbox-part”></div>
+							<div class=”display-part”> {{ node.display }}</div>  // Prozedur
+						</div>
+					</search-tree-term-entry>
+				</div>
+				// Kein <ul> weil leaf = true
+			</li>
+		</mat-tree-node>
+		
+		// If leaf = false
+		<mat-nested-tree-node>  // Level 1
+			<li>
+				<div>  // Level 1 : Top
+					<button></button>
+					<search-tree-term-entry>
+						// If selectable = true
+						<div>
+							<div class=”checkbox-part”></div>
+							<div class=”display-part”> {{ node.display }}</div>  // Prozedur
+						</div> 
+						// If selectable = false
+						<div class=”container”>
+							{{ node.display }} 
+						</div>
+					</search-tree-term-entry>
+				</div>
+				<ul>  // Level 1 : Body
+					// If leaf = true
+					<mat-tree-node>
+						<li>
+							<div>
+								<button disabled></button> // No Expand Button
+								<search-tree-term-entry>
+									// selectable = true
+									<div>
+										<div class=”checkbox-part”></div>
+										<div class=”display-part”> {{ node.display }}</div>  // Prozedur
+									</div>
+								</search-tree-term-entry>
+							</div>
+							// Kein <ul> weil leaf = true
+						</li>
+					</mat-tree-node>
+					// If leaf = false
+					<mat-nested-tree-node>  // Level 2
+						<li>
+							<div>  // Level 2 : Top
+								<search-tree-term-entry>
+									................
+								</search-tree-term-entry>
+							<div>
+							<ul> // Level 2 : Body
+								<mat-nested-tree-node> // Level 3
+									...............
+								</mat-nested-tree-node>
+							</ul>
+						</li>
+					</mat-nested-tree-node>
+				</ul>
+			</li>
+		</mat-nested-tree-node>
+	</mat-tree>
+</search-tree-overlay-content>
