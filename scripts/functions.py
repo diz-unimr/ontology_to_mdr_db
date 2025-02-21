@@ -41,14 +41,13 @@ def find_module_id(context_code: str):
     id = kds_beschreibung[kds_beschreibung["fdpg_kds_code"] == context_code]['id'].values[0]
     return id if len(id) > 0 else None
 
-def traverse_children(ontology: List[JSONType], profile_filter: Union[JSONType, None], parent_id: Union[str, None], csv_filename):
+def traverse_children(ontology: List[JSONType], profile_filter: Union[JSONType, None], parent_id: Union[str, None], csv_filename) -> None:
     module_id = find_module_id(ontology[0]['context']['code'])
-
+    
     for node in ontology:
-        id = hashlib.md5(f"{module_id}{node['termCodes'][0]}".encode()).hexdigest()
+        id = hashlib.md5(f"{module_id}{node['id']}{node['termCodes'][0]}".encode()).hexdigest()
         if node['context']['code'] != "Procedure" and node['context']['code'] != "Diagnose":
             profile_filter = get_profile_filter(node)
-        print(module_id)
         df = pd.DataFrame([{
             "id": id,
             "module_id": module_id,
@@ -62,8 +61,10 @@ def traverse_children(ontology: List[JSONType], profile_filter: Union[JSONType, 
             "filter_options": json.dumps(profile_filter['valueDefinition']['allowedUnits']) if profile_filter['valueDefinition'] and profile_filter['valueDefinition']['allowedUnits'] != [] else json.dumps(profile_filter['valueDefinition']['selectableConcepts']) if profile_filter['valueDefinition'] and profile_filter['valueDefinition']['selectableConcepts'] != [] else None,
             "version": '2.2.0'
         }])
+        # Ensure that the 'term_codes' field is correctly serialized without double-escaping
+        df['term_codes'] = df['term_codes'].apply(lambda x: x.replace('\\"', ''))  # Fix the escaping issue
 
-        df.to_csv(csv_filename, index=False, mode="a", header=False)
+        df.to_csv(csv_filename, index=False, encoding='utf-8', mode="a", header=False)
 
         if 'children' in node:
             traverse_children(ontology=node['children'], profile_filter=profile_filter, parent_id=id, csv_filename=csv_filename)
@@ -80,7 +81,7 @@ def create_kds_concepts_table(ontology_trees: List[JSONType]) -> None:
     csv_filename = "kds_concepts.csv"
     columns = ["id", "module_id", "parent_id", "display", "term_codes", "selectable", "leaf", "time_restriction_allowed", "filter_type", "filter_options", "version"]
     df = pd.DataFrame(columns=columns)
-    df.to_csv(csv_filename, index=False, mode="w")  # Create file with headers
+    df.to_csv(csv_filename, index=False, encoding='utf-8', mode="w")  # Create file with headers
     
     for ontology in ontology_trees:
         profile_filter = get_profile_filter(ontology)
