@@ -49,14 +49,21 @@ def get_data_from_xwiki(url_name):
         print('Failed to download file. Status code:', response.status_code)
         return None
 
+def check_csv_file_exist(csv_filename):
+    # Check if the file exists
+    if os.path.exists(csv_filename):
+        print("The file exists.")
+    else:
+        print("The file does not exist.")
+        columns = ['id', 'module_id', 'parent_id', 'display', 'term_codes', 'selectable', 'leaf', 'time_restriction_allowed', 'filter_type', 'filter_options', 'version']
+        df = pd.DataFrame(columns=columns)
+        df.to_csv(csv_filename, index=False, mode='w')  # Create file with headers
+
 def create_ontology_table():
     ontologies = get_data_from_xwiki('XWIKI_ONTOLOGY_URL')
     ontologies = ontologies[ontologies['belongs_to'] != 'AppWithinMinutes.DBList']
 
-    columns = ['id', 'module_id', 'parent_id', 'display', 'term_codes', 'selectable', 'leaf', 'time_restriction_allowed', 'filter_type', 'filter_options', 'version']
-    df = pd.DataFrame(columns=columns)
-    df.to_csv('ontology_table.csv', index=False, mode='w')  # Create file with headers
-    ontology_table = pd.DataFrame(columns=columns)
+    check_csv_file_exist('kds_concepts.csv')
 
     module_id = find_module_id('Laboruntersuchung')
     # sorting ontology from parent to children
@@ -64,7 +71,8 @@ def create_ontology_table():
     ontologies_level2 = ontologies[ontologies['belongs_to'].isin(ontologies_level1['category'].to_list())]
     ontologies_level3 = ontologies[~ontologies['category'].isin(ontologies_level1['category'].to_list() + ontologies_level2['category'].to_list())]
     ontologies = pd.concat([ontologies_level1, ontologies_level2, ontologies_level3], ignore_index=True)
-
+    
+    df = pd.DataFrame()
     for _, ontology in ontologies.iterrows():
         if ontology['belongs_to'] == 'Laboruntersuchung':
             parent_id = None
@@ -93,10 +101,7 @@ def create_lab_codes_concepts_table(ontology_table):
     lab_codes = get_data_from_xwiki('XWIKI_LABCODES_URL')
     lab_codes = lab_codes[lab_codes['swl_metacode'] != 'X']
     
-    csv_filename = 'kds_concepts.csv'
-    columns = ['id', 'module_id', 'parent_id', 'display', 'term_codes', 'selectable', 'leaf', 'time_restriction_allowed', 'filter_type', 'filter_options', 'version']
-    df = pd.DataFrame(columns=columns)
-    df.to_csv(csv_filename, index=False, mode='w')  # Create file with headers
+    check_csv_file_exist('kds_concepts.csv')
 
     # ui_profile = read_json_file(['ontology/ui_profile.json'])[0]
     # profile_filter = ui_profile['Laboruntersuchung']
@@ -138,4 +143,4 @@ def create_lab_codes_concepts_table(ontology_table):
                 'version': '2.2.0'
             }])
             term_codes = []
-            df.to_csv(csv_filename, encoding='utf-8', index=False, mode='a', header=False)
+            df.to_csv('kds_concepts.csv', encoding='utf-8', index=False, mode='a', header=False)

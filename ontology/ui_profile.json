@@ -11,6 +11,12 @@
         "timeRestrictionAllowed": true,
         "valueDefinition": null
     },
+    "Laboruntersuchung": {
+        "attributeDefinitions": [],
+        "name": "Laboruntersuchung",
+        "timeRestrictionAllowed": true,
+        "valueDefinition": null
+    },
     "Gegenwärtiges chronologisches Alter": {
         "attributeDefinitions": [],
         "name": "Gegenwärtiges chronologisches Alter",
