@@ -21,7 +21,6 @@ def get_data_from_xwiki(url_name):
             column_mapping = {
                 'Main.Metadatenrepository.Ontologien.Code.OntologienClass_CATEGORY': 'category',
                 'Main.Metadatenrepository.Ontologien.Code.OntologienClass_BELONGS_TO': 'belongs_to',
-                'Main.Metadatenrepository.Ontologien.Code.OntologienClass_TERMINOLOGY': 'terminology',
                 'Main.Metadatenrepository.Ontologien.Code.OntologienClass_VERSION': 'version',
             }
         elif url_name == 'XWIKI_LABCODES_URL':
@@ -31,6 +30,7 @@ def get_data_from_xwiki(url_name):
                 'Main.Metadatenrepository.Laborcodes.Code.LaborcodesClass_SWL_UNIT': 'swl_unit',
                 'Main.Metadatenrepository.Laborcodes.Code.LaborcodesClass_BELONGS_TO': 'belongs_to',
                 'Main.Metadatenrepository.Laborcodes.Code.LaborcodesClass_SWL_METACODE': 'swl_metacode',
+                'Main.Metadatenrepository.Laborcodes.Code.LaborcodesClass_SWL_SOURCE': 'swl_source',
                 'Main.Metadatenrepository.Laborcodes.Code.LaborcodesClass_CODE': 'code',
                 'Main.Metadatenrepository.Laborcodes.Code.LaborcodesClass_CODE_LONG_NAME': 'code_long_name',
                 'Main.Metadatenrepository.Laborcodes.Code.LaborcodesClass_CODE_SYSTEM': 'code_system',
@@ -63,7 +63,7 @@ def create_ontology_table():
     ontologies = get_data_from_xwiki('XWIKI_ONTOLOGY_URL')
     ontologies = ontologies[ontologies['belongs_to'] != 'AppWithinMinutes.DBList']
 
-    check_csv_file_exist('kds_concepts.csv')
+    check_csv_file_exist('concepts.csv')
 
     module_id = find_module_id('Laboruntersuchung')
     # sorting ontology from parent to children
@@ -78,6 +78,7 @@ def create_ontology_table():
             parent_id = None
         else:
             parent_id = df[df['display'] == ontology['belongs_to']]['id'].values[0]
+            
         id = hashlib.md5(f"{module_id}{ontology['category']}{ontology['belongs_to']}{ontology['version']}".encode()).hexdigest()
         data = pd.DataFrame([{
             'id': id,
@@ -93,34 +94,73 @@ def create_ontology_table():
             'version': '2.2.0'
         }])
         df = pd.concat([df, data], ignore_index=True)
-    df.to_csv('kds_concepts.csv', index=False, mode='a', header=False)
+    df.to_csv('concepts.csv', index=False, mode='a', header=False)
     return df
 
-
 def create_lab_codes_concepts_table(ontology_table):
+    # get lab codes from xwiki 
     lab_codes = get_data_from_xwiki('XWIKI_LABCODES_URL')
     lab_codes = lab_codes[lab_codes['swl_metacode'] != 'X']
-    
-    check_csv_file_exist('kds_concepts.csv')
+    lab_codes = lab_codes[lab_codes['code_system'] != 'http://snomed.org']
+    lab_codes.to_csv('lab_codes.csv')
 
-    # ui_profile = read_json_file(['ontology/ui_profile.json'])[0]
-    # profile_filter = ui_profile['Laboruntersuchung']
+    check_csv_file_exist('concepts.csv')
+
     module_id = find_module_id('Laboruntersuchung')
     term_codes = []
+    df_temp = pd.DataFrame()
 
     for i in range(len(lab_codes)):
-        swl_code = lab_codes.iloc[i]['swl_code']
-        loinc = lab_codes.iloc[i]['code']
-        term_code = {
-            'code': lab_codes.iloc[i]['code'],
-            'display': lab_codes.iloc[i]['code_long_name'],
-            'system': lab_codes.iloc[i]['code_system'],
-            'version': lab_codes.iloc[i]['version']
+        term_codes_child = []
+        is_selectable = True
+        swl_code = str(lab_codes.iloc[i]['swl_code']).strip()
+        loinc = str(lab_codes.iloc[i]['code']).strip()
+        child_id = hashlib.md5(f"{module_id}{swl_code}{loinc}{term_codes}".encode()).hexdigest()
+        # term_codes with swisslab code
+        swl_term_code = {
+            'code': swl_code,
+            'display': str(lab_codes.iloc[i]['swl_description']).strip(),
+            'system': 'https://fhir.diz.uni-marburg.de/CodeSystem/swisslab-code',
+            'version': ''
         }
-        term_codes.append(term_code)
+        term_codes_child.append(swl_term_code)
+        term_codes.append(swl_term_code) if swl_code not in {item['code'] for item in term_codes} else None
+
+        # term_codes with loinc
+        if lab_codes.iloc[i]['validated'] == 'X' and lab_codes.iloc[i]['code_system'] == 'http://loinc.org':
+            loinc_term_code = {
+                'code': loinc,
+                'display': str(lab_codes.iloc[i]['code_long_name']).strip() if lab_codes.iloc[i]['code_long_name'] else str(lab_codes.iloc[i]['swl_description']).strip(),
+                'system': 'http://loinc.org',
+                'version': str(lab_codes.iloc[i]['version']).strip()
+            }
+            term_codes_child.append(loinc_term_code)
+            term_codes.append(loinc_term_code) if loinc not in {item['code'] for item in term_codes} else None
+
+        if not 'loin' in str(term_codes_child):
+            warningText = ' (Die Suche nach SWL-Code wird momentan nicht unterstützt)'
+            is_selectable = False
+        else:
+            warningText = ''
+            is_selectable = True
+
+        df = pd.DataFrame([{
+                'id': child_id,
+                'module_id': module_id,
+                'parent_id': None,
+                'display': str(lab_codes.iloc[i]['swl_description']).strip()  + ( ' (' + str(lab_codes.iloc[i]['swl_source']).strip() + ')' if lab_codes.iloc[i]['swl_source'] else '') + str(warningText),
+                'term_codes': json.dumps(term_codes_child),
+                'selectable': is_selectable,
+                'leaf': True,
+                'time_restriction_allowed': True,
+                'filter_type': None,
+                'filter_options': None,
+                'version': '2.2.0'
+            }])
+        df_temp = pd.concat([df_temp, df], ignore_index=True)
 
         try:
-            condition_met = swl_code != lab_codes.iloc[i+1]['swl_code']
+            condition_met = swl_code != lab_codes.iloc[i+1]['swl_code'] # and lab_codes.iloc[i]['swl_description'] != lab_codes.iloc[i+1]['swl_description']
         except:
             condition_met = i == len(lab_codes)-1
 
@@ -128,19 +168,38 @@ def create_lab_codes_concepts_table(ontology_table):
             id = hashlib.md5(f"{module_id}{swl_code}{loinc}{term_codes}".encode()).hexdigest()
             try: parent_id = ontology_table[ontology_table['display'] == lab_codes.iloc[i]['belongs_to']]['id'].values[0]
             except: parent_id = None
-
+            if not 'loin' in str(term_codes):
+                warningText = ' (Die Suche nach SWL-Code wird momentan nicht unterstützt)'
+                is_selectable = False
+            else: 
+                warningText = ''
+                is_selectable = True
+            
             df = pd.DataFrame([{
                 'id': id,
                 'module_id': module_id,
                 'parent_id': parent_id,
-                'display': lab_codes.iloc[i]['swl_description'],
+                'display': str(lab_codes.iloc[i]['swl_code']).strip() if (not lab_codes.iloc[i]['swl_description']) or lab_codes.iloc[i]['swl_description'] == 'emptyvalue' else str(lab_codes.iloc[i]['swl_description']).strip() + str(warningText),
                 'term_codes': json.dumps(term_codes),
-                'selectable': True,
+                'selectable': is_selectable,
                 'leaf': True,
                 'time_restriction_allowed': True,
                 'filter_type': None,
                 'filter_options': None,
                 'version': '2.2.0'
             }])
+
+            if not 'loin' in df['term_codes']:
+                warningText = 'Die Suche nach SWL-Code wird momentan nicht unterstützt'
+
             term_codes = []
-            df.to_csv('kds_concepts.csv', encoding='utf-8', index=False, mode='a', header=False)
+            df.to_csv('concepts.csv', encoding='utf-8', index=False, mode='a', header=False)
+            if not df['term_codes'].equals(df_temp['term_codes']):
+                df_temp['parent_id'] = id
+                df_temp.to_csv('concepts.csv', encoding='utf-8', index=False, mode='a', header=False)
+            df_temp = pd.DataFrame()
+
+def check_lab():
+    df = pd.read_csv('lab_codes.csv')
+    duplicates = df[df.duplicated(subset=['swl_description', 'code'], keep=False)]
+    print(duplicates)

@@ -17,9 +17,9 @@ def read_json_file(urls: List[str]) -> List[JSONType]:
             json_data.append(json_file)
     return json_data
 
-def create_kds_beschreibung_table(ontology_trees: List[JSONType]) -> None:
-    csv_filename = "kds_beschreibung.csv"
-    columns = ["id", "kds_module_name", "fdpg_kds_code", "fdpg_kds_system", "fdpg_kds_version", "version"]
+def create_modules_table(ontology_trees: List[JSONType]) -> None:
+    csv_filename = "modules.csv"
+    columns = ["id", "name", "fdpg_cds_code", "fdpg_cds_system", "fdpg_cds_version", "version"]
     
     df = pd.DataFrame(columns=columns)
     df.to_csv(csv_filename, index=False, mode="w")  # Create file with headers
@@ -28,17 +28,17 @@ def create_kds_beschreibung_table(ontology_trees: List[JSONType]) -> None:
         id = hashlib.md5(f"{object['children'][0]['context']['code']}{object['children'][0]['context']['system']}{object['children'][0]['context']['version']}{'2.2.0'}".encode()).hexdigest()
         df = pd.DataFrame([{
             "id": id,
-            "kds_module_name": object['context']['display'],
-            "fdpg_kds_code": object['children'][0]['context']['code'],
-            "fdpg_kds_system": object['children'][0]['context']['system'],
-            "fdpg_kds_version": object['children'][0]['context']['version'],
+            "name": object['context']['display'],
+            "fdpg_cds_code": object['children'][0]['context']['code'],
+            "fdpg_cds_system": object['children'][0]['context']['system'],
+            "fdpg_cds_version": object['children'][0]['context']['version'],
             "version": "2.2.0"
         }])
         df.to_csv(csv_filename, index=False, mode="a", header=False) # Append to the CSV file
 
 def find_module_id(context_code: str):
-    kds_beschreibung = pd.read_csv('kds_beschreibung.csv')
-    id = kds_beschreibung[kds_beschreibung["fdpg_kds_code"] == context_code]['id'].values[0]
+    modules = pd.read_csv('modules.csv')
+    id = modules[modules["fdpg_cds_code"] == context_code]['id'].values[0]
     return id if len(id) > 0 else None
 
 def traverse_children(ontology: List[JSONType], profile_filter: Union[JSONType, None], parent_id: Union[str, None], csv_filename) -> None:
@@ -77,8 +77,8 @@ def get_profile_filter(ontology: JSONType) -> Union[JSONType, None]:
         profile_filter = None
     return profile_filter
 
-def create_kds_concepts_table(ontology_trees: List[JSONType]) -> None:
-    csv_filename = "kds_concepts.csv"
+def create_concepts_table(ontology_trees: List[JSONType]) -> None:
+    csv_filename = "concepts.csv"
     columns = ["id", "module_id", "parent_id", "display", "term_codes", "selectable", "leaf", "time_restriction_allowed", "filter_type", "filter_options", "version"]
     df = pd.DataFrame(columns=columns)
     df.to_csv(csv_filename, index=False, encoding='utf-8', mode="w")  # Create file with headers
