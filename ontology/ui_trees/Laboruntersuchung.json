@@ -91,14 +91,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "dsDNA-Antik\u00f6rper",
+                            "display": "dsDNA-Antikörper",
                             "id": "0b3f4adb-c88b-87d8-75af-61f689329cc7",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "5130-0",
-                                    "display": "dsDNA-Antik\u00f6rper",
+                                    "display": "dsDNA-Antikörper",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -110,14 +110,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "dsDNA-Antik\u00f6rper EIA",
+                            "display": "dsDNA-Antikörper EIA",
                             "id": "b0b10937-0ecc-0a6b-77b5-45a1870a8228",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "32677-7",
-                                    "display": "dsDNA-Antik\u00f6rper EIA",
+                                    "display": "dsDNA-Antikörper EIA",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -129,14 +129,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "dsDNA-Antik\u00f6rper RIA",
+                            "display": "dsDNA-Antikörper RIA",
                             "id": "4daeb018-eab1-7dd6-3045-3a84361ad163",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "42200-6",
-                                    "display": "dsDNA-Antik\u00f6rper RIA",
+                                    "display": "dsDNA-Antikörper RIA",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -148,14 +148,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Scl-70 Antik\u00f6rper",
+                            "display": "Scl-70 Antikörper",
                             "id": "e677b341-a26d-bc30-8254-cdf7559608bf",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "27416-7",
-                                    "display": "Scl-70 Antik\u00f6rper",
+                                    "display": "Scl-70 Antikörper",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -167,14 +167,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Scl-70 Antik\u00f6rper EIA",
+                            "display": "Scl-70 Antikörper EIA",
                             "id": "11f2f069-5af5-e2a5-30ca-84aefaaee73d",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "26975-3",
-                                    "display": "Scl-70 Antik\u00f6rper EIA",
+                                    "display": "Scl-70 Antikörper EIA",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -186,14 +186,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Sm-Antik\u00f6rper",
+                            "display": "Sm-Antikörper",
                             "id": "5c51a246-7cc4-75d4-f4c7-29450d0bf0f3",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "11090-8",
-                                    "display": "Sm-Antik\u00f6rper",
+                                    "display": "Sm-Antikörper",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -205,14 +205,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Sm-Antik\u00f6rper EIA",
+                            "display": "Sm-Antikörper EIA",
                             "id": "4c872247-0fde-629d-ec99-3b0bea08befe",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "43182-5",
-                                    "display": "Sm-Antik\u00f6rper EIA",
+                                    "display": "Sm-Antikörper EIA",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -224,14 +224,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Kollagenose-assoziierte Autoantik\u00f6rper",
+                    "display": "Kollagenose-assoziierte Autoantikörper",
                     "id": "a751087b-9431-6c95-434c-301fef2c067d",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Kollagenose-assoziierte Autoantik\u00f6rper",
-                            "display": "Kollagenose-assoziierte Autoantik\u00f6rper",
+                            "code": "Kollagenose-assoziierte Autoantikörper",
+                            "display": "Kollagenose-assoziierte Autoantikörper",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -302,14 +302,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Lebererkrankungen-assoziierte Autoantik\u00f6rper",
+                    "display": "Lebererkrankungen-assoziierte Autoantikörper",
                     "id": "dec77f4d-29b8-2554-24a4-3a66a5dd5c52",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Lebererkrankungen-assoziierte Autoantik\u00f6rper",
-                            "display": "Lebererkrankungen-assoziierte Autoantik\u00f6rper",
+                            "code": "Lebererkrankungen-assoziierte Autoantikörper",
+                            "display": "Lebererkrankungen-assoziierte Autoantikörper",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -323,14 +323,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Jo-1-Antik\u00f6rper qual.",
+                            "display": "Jo-1-Antikörper qual.",
                             "id": "ee0bacb1-94f5-a024-4492-a32a8d2cdd5d",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "8076-2",
-                                    "display": "Jo-1-Antik\u00f6rper qual.",
+                                    "display": "Jo-1-Antikörper qual.",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -342,14 +342,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Jo-1-Antik\u00f6rper qual. IB",
+                            "display": "Jo-1-Antikörper qual. IB",
                             "id": "1eb0ea23-dcf5-0ccf-ea92-8d17f1851013",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "56731-3",
-                                    "display": "Jo-1-Antik\u00f6rper qual. IB",
+                                    "display": "Jo-1-Antikörper qual. IB",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -361,14 +361,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "PM-Scl-Antik\u00f6rper",
+                            "display": "PM-Scl-Antikörper",
                             "id": "e7841723-107e-b7c1-e080-4508bc20f5a5",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "31562-2",
-                                    "display": "PM-Scl-Antik\u00f6rper",
+                                    "display": "PM-Scl-Antikörper",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -380,14 +380,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Myositis-assoziierte Autoantik\u00f6rper",
+                    "display": "Myositis-assoziierte Autoantikörper",
                     "id": "425ca657-98cb-780e-0356-f10a6b125c5c",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Myositis-assoziierte Autoantik\u00f6rper",
-                            "display": "Myositis-assoziierte Autoantik\u00f6rper",
+                            "code": "Myositis-assoziierte Autoantikörper",
+                            "display": "Myositis-assoziierte Autoantikörper",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -401,14 +401,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "CCP-Antik\u00f6rper",
+                            "display": "CCP-Antikörper",
                             "id": "dc3885f0-9b5f-c443-72bd-90334d1cccc4",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "53027-9",
-                                    "display": "CCP-Antik\u00f6rper",
+                                    "display": "CCP-Antikörper",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -439,14 +439,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Rheumatoide Arthritis-assoziierte Autoantik\u00f6rper",
+                    "display": "Rheumatoide Arthritis-assoziierte Autoantikörper",
                     "id": "6ef64097-86cd-6784-1eb0-0ffb62a221b2",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Rheumatoide Arthritis-assoziierte Autoantik\u00f6rper",
-                            "display": "Rheumatoide Arthritis-assoziierte Autoantik\u00f6rper",
+                            "code": "Rheumatoide Arthritis-assoziierte Autoantikörper",
+                            "display": "Rheumatoide Arthritis-assoziierte Autoantikörper",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -479,14 +479,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "MPO-Antik\u00f6rper qual.",
+                            "display": "MPO-Antikörper qual.",
                             "id": "450e26d9-cf9f-1d58-4191-e5df2835310d",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "17316-1",
-                                    "display": "MPO-Antik\u00f6rper qual.",
+                                    "display": "MPO-Antikörper qual.",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -517,14 +517,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Vasculitis-assoziierte Antik\u00f6rper",
+                    "display": "Vasculitis-assoziierte Antikörper",
                     "id": "8534d201-d046-6987-df46-bdeec37416d1",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Vasculitis-assoziierte Antik\u00f6rper",
-                            "display": "Vasculitis-assoziierte Antik\u00f6rper",
+                            "code": "Vasculitis-assoziierte Antikörper",
+                            "display": "Vasculitis-assoziierte Antikörper",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -557,14 +557,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "tTG-A(Tissue-Transglutaminase-Antik\u00f6.) IgA",
+                            "display": "tTG-A(Tissue-Transglutaminase-Antikö.) IgA",
                             "id": "ae461e66-d0be-627b-1c45-b9f44e957119",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "31017-7",
-                                    "display": "tTG-A(Tissue-Transglutaminase-Antik\u00f6.) IgA",
+                                    "display": "tTG-A(Tissue-Transglutaminase-Antikö.) IgA",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -576,14 +576,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Z\u00f6liakie assoziierte Autoantik\u00f6rper",
+                    "display": "Zöliakie assoziierte Autoantikörper",
                     "id": "7626c0a8-a384-0d7d-531f-e4fee332a3ae",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Z\u00f6liakie assoziierte Autoantik\u00f6rper",
-                            "display": "Z\u00f6liakie assoziierte Autoantik\u00f6rper",
+                            "code": "Zöliakie assoziierte Autoantikörper",
+                            "display": "Zöliakie assoziierte Autoantikörper",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -694,14 +694,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4moglobin /Blut",
+                            "display": "Hämoglobin /Blut",
                             "id": "d2cead7a-ea52-e45b-e41f-d06fba52fd6f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "55782-7",
-                                    "display": "H\u00e4moglobin /Blut",
+                                    "display": "Hämoglobin /Blut",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -789,14 +789,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "O2-S\u00e4ttigung ber. /Blut",
+                            "display": "O2-Sättigung ber. /Blut",
                             "id": "d38070f7-8f3b-9ba4-680d-177dcb73d532",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2713-6",
-                                    "display": "O2-S\u00e4ttigung ber. /Blut",
+                                    "display": "O2-Sättigung ber. /Blut",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -808,14 +808,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "O2-S\u00e4ttigung gem. /Blut",
+                            "display": "O2-Sättigung gem. /Blut",
                             "id": "463c926e-4ee8-9887-9d10-6a4531522bf5",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "20564-1",
-                                    "display": "O2-S\u00e4ttigung gem. /Blut",
+                                    "display": "O2-Sättigung gem. /Blut",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1038,14 +1038,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4matokrit arteriell",
+                            "display": "Hämatokrit arteriell",
                             "id": "f5fd03c2-c251-7afe-5c3e-55592646afb0",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "32354-3",
-                                    "display": "H\u00e4matokrit arteriell",
+                                    "display": "Hämatokrit arteriell",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1133,14 +1133,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "O2-S\u00e4ttigung arteriell",
+                            "display": "O2-Sättigung arteriell",
                             "id": "b1d0dca0-a0ca-25fc-44fb-c057d4ad9a86",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2708-6",
-                                    "display": "O2-S\u00e4ttigung arteriell",
+                                    "display": "O2-Sättigung arteriell",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1363,14 +1363,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4matokrit Kapillarblut",
+                            "display": "Hämatokrit Kapillarblut",
                             "id": "607c992f-f10f-2e9c-deec-55fb88394c03",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "42908-4",
-                                    "display": "H\u00e4matokrit Kapillarblut",
+                                    "display": "Hämatokrit Kapillarblut",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1439,14 +1439,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "O2-S\u00e4ttigung Kapillarblut",
+                            "display": "O2-Sättigung Kapillarblut",
                             "id": "51ab049d-37b3-57e1-79f6-c22e72a95bfb",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2709-4",
-                                    "display": "O2-S\u00e4ttigung Kapillarblut",
+                                    "display": "O2-Sättigung Kapillarblut",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1515,14 +1515,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Blutgasanalyse kapill\u00e4r",
+                    "display": "Blutgasanalyse kapillär",
                     "id": "8b45aa3f-3e00-8b47-2b5e-566c4da8330d",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Blutgasanalyse kapill\u00e4r",
-                            "display": "Blutgasanalyse kapill\u00e4r",
+                            "code": "Blutgasanalyse kapillär",
+                            "display": "Blutgasanalyse kapillär",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -1536,14 +1536,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Base excess ven\u00f6s",
+                            "display": "Base excess venös",
                             "id": "4531fd30-ba68-0e1d-4836-ca009d317ced",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "1927-3",
-                                    "display": "Base excess ven\u00f6s",
+                                    "display": "Base excess venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1555,14 +1555,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Bikarbonat ven\u00f6s",
+                            "display": "Bikarbonat venös",
                             "id": "a3ebf7a1-756b-9d81-deb0-15be7444290f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "14627-4",
-                                    "display": "Bikarbonat ven\u00f6s",
+                                    "display": "Bikarbonat venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1574,14 +1574,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Bilirubin ven\u00f6s",
+                            "display": "Bilirubin venös",
                             "id": "5c20f08e-d25e-938b-2e2b-f28bc9869f8f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "59828-4",
-                                    "display": "Bilirubin ven\u00f6s",
+                                    "display": "Bilirubin venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1593,14 +1593,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Chlorid ven\u00f6s",
+                            "display": "Chlorid venös",
                             "id": "4175684e-e2dd-47ad-3fbe-5520a8abfdfe",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41649-5",
-                                    "display": "Chlorid ven\u00f6s",
+                                    "display": "Chlorid venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1612,14 +1612,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Glucose ven\u00f6s",
+                            "display": "Glucose venös",
                             "id": "e9e39008-bbc8-288e-64a7-23cd5f5a166e",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41652-9",
-                                    "display": "Glucose ven\u00f6s",
+                                    "display": "Glucose venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1631,14 +1631,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4matokrit ven\u00f6s",
+                            "display": "Hämatokrit venös",
                             "id": "7ca9af49-f1eb-1f13-2285-74c037e41f4b",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41654-5",
-                                    "display": "H\u00e4matokrit ven\u00f6s",
+                                    "display": "Hämatokrit venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1650,14 +1650,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Kalium ven\u00f6s",
+                            "display": "Kalium venös",
                             "id": "b67ba13d-433e-450c-6d53-f34156549ea5",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "39789-3",
-                                    "display": "Kalium ven\u00f6s",
+                                    "display": "Kalium venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1669,14 +1669,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Laktat ven\u00f6s",
+                            "display": "Laktat venös",
                             "id": "627f4176-e187-cd96-ba43-be46b789b9f5",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2519-7",
-                                    "display": "Laktat ven\u00f6s",
+                                    "display": "Laktat venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1688,14 +1688,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Natrium ven\u00f6s",
+                            "display": "Natrium venös",
                             "id": "1d684542-9bf7-af8d-39fb-6ad527573a45",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "39791-9",
-                                    "display": "Natrium ven\u00f6s",
+                                    "display": "Natrium venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1707,14 +1707,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "O2-S\u00e4ttigung ven\u00f6s",
+                            "display": "O2-Sättigung venös",
                             "id": "616f7935-ea95-e155-1ac8-b17794e8b4f6",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2711-0",
-                                    "display": "O2-S\u00e4ttigung ven\u00f6s",
+                                    "display": "O2-Sättigung venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1726,14 +1726,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "pCO2 ven\u00f6s",
+                            "display": "pCO2 venös",
                             "id": "2e899958-b5ba-f537-16dd-b1e4234b1ec2",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2021-4",
-                                    "display": "pCO2 ven\u00f6s",
+                                    "display": "pCO2 venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1745,14 +1745,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "pH ven\u00f6s",
+                            "display": "pH venös",
                             "id": "733c4247-0767-5b8d-0969-ab2ecae46a18",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2746-6",
-                                    "display": "pH ven\u00f6s",
+                                    "display": "pH venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1764,14 +1764,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "pO2 ven\u00f6s",
+                            "display": "pO2 venös",
                             "id": "05cc2e40-7760-c818-53f2-b572d13926a9",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2705-2",
-                                    "display": "pO2 ven\u00f6s",
+                                    "display": "pO2 venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1783,14 +1783,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Blutgasanalyse ven\u00f6s",
+                    "display": "Blutgasanalyse venös",
                     "id": "c6d6a4d2-87a0-c36f-61d8-73dec953bf7f",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Blutgasanalyse ven\u00f6s",
-                            "display": "Blutgasanalyse ven\u00f6s",
+                            "code": "Blutgasanalyse venös",
+                            "display": "Blutgasanalyse venös",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -1804,14 +1804,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Carboxyh\u00e4moglobin arteriell",
+                            "display": "Carboxyhämoglobin arteriell",
                             "id": "abdb9d7d-b7a6-c008-2070-57c044c2c908",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2030-5",
-                                    "display": "Carboxyh\u00e4moglobin arteriell",
+                                    "display": "Carboxyhämoglobin arteriell",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1823,14 +1823,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Meth\u00e4moglobin arteriell",
+                            "display": "Methämoglobin arteriell",
                             "id": "de476854-f214-25f0-044c-fd66815d7601",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2615-3",
-                                    "display": "Meth\u00e4moglobin arteriell",
+                                    "display": "Methämoglobin arteriell",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1842,14 +1842,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Totales H\u00e4moglobin arteriell",
+                            "display": "Totales Hämoglobin arteriell",
                             "id": "a2a9b52a-68f4-1783-998d-5e8636413d25",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "30313-1",
-                                    "display": "Totales H\u00e4moglobin arteriell",
+                                    "display": "Totales Hämoglobin arteriell",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1882,14 +1882,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Carboxyh\u00e4moglobin kapill\u00e4r",
+                            "display": "Carboxyhämoglobin kapillär",
                             "id": "ba15d838-e413-ff69-ce5a-8b7541fd2d33",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2031-3",
-                                    "display": "Carboxyh\u00e4moglobin kapill\u00e4r",
+                                    "display": "Carboxyhämoglobin kapillär",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1901,14 +1901,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Meth\u00e4moglobin kapill\u00e4r",
+                            "display": "Methämoglobin kapillär",
                             "id": "f3429162-066d-fc33-c1d0-d69962fb9a13",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2616-1",
-                                    "display": "Meth\u00e4moglobin kapill\u00e4r",
+                                    "display": "Methämoglobin kapillär",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1920,14 +1920,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Totales H\u00e4moglobin kapill\u00e4r",
+                            "display": "Totales Hämoglobin kapillär",
                             "id": "10217139-5240-3171-6149-c2f17aff6354",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "30352-9",
-                                    "display": "Totales H\u00e4moglobin kapill\u00e4r",
+                                    "display": "Totales Hämoglobin kapillär",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1939,14 +1939,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Hb-Derivate kapill\u00e4r",
+                    "display": "Hb-Derivate kapillär",
                     "id": "0ced2b8d-ffb5-434d-9b1e-72e293b2b43e",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Hb-Derivate kapill\u00e4r",
-                            "display": "Hb-Derivate kapill\u00e4r",
+                            "code": "Hb-Derivate kapillär",
+                            "display": "Hb-Derivate kapillär",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -1960,14 +1960,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Carboxyh\u00e4moglobin ven\u00f6s",
+                            "display": "Carboxyhämoglobin venös",
                             "id": "dd2eea0b-a75f-df0d-b827-315101be55b5",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2032-1",
-                                    "display": "Carboxyh\u00e4moglobin ven\u00f6s",
+                                    "display": "Carboxyhämoglobin venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1979,14 +1979,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Meth\u00e4moglobin ven\u00f6s",
+                            "display": "Methämoglobin venös",
                             "id": "850ce4a0-06c7-33bc-921f-6d662045a3c1",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2617-9",
-                                    "display": "Meth\u00e4moglobin ven\u00f6s",
+                                    "display": "Methämoglobin venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -1998,14 +1998,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Totales H\u00e4moglobin ven\u00f6s",
+                            "display": "Totales Hämoglobin venös",
                             "id": "35ea17a9-98df-ca01-94b2-06f2245bcd36",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "30350-3",
-                                    "display": "Totales H\u00e4moglobin ven\u00f6s",
+                                    "display": "Totales Hämoglobin venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2017,14 +2017,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Hb-Derivate ven\u00f6s",
+                    "display": "Hb-Derivate venös",
                     "id": "99dd6a53-da62-9db1-6955-2236fa79e550",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Hb-Derivate ven\u00f6s",
-                            "display": "Hb-Derivate ven\u00f6s",
+                            "code": "Hb-Derivate venös",
+                            "display": "Hb-Derivate venös",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -2038,14 +2038,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Base excess gemischt ven\u00f6s",
+                            "display": "Base excess gemischt venös",
                             "id": "a8c7d00e-04bf-a231-6652-4830f19e3e7f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "19234-4",
-                                    "display": "Base excess gemischt ven\u00f6s",
+                                    "display": "Base excess gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2057,14 +2057,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Bikarbonat gemischt ven\u00f6s",
+                            "display": "Bikarbonat gemischt venös",
                             "id": "d699db36-5d8c-14ab-b0e1-01e4b524a414",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "19229-4",
-                                    "display": "Bikarbonat gemischt ven\u00f6s",
+                                    "display": "Bikarbonat gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2076,14 +2076,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Calcium ionisiert gemischt ven\u00f6s",
+                            "display": "Calcium ionisiert gemischt venös",
                             "id": "0f54f3b2-c5a6-c555-560d-7e5a0bc7626e",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41646-1",
-                                    "display": "Calcium ionisiert gemischt ven\u00f6s",
+                                    "display": "Calcium ionisiert gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2095,14 +2095,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Carboxyh\u00e4moglobin gemischt ven\u00f6s",
+                            "display": "Carboxyhämoglobin gemischt venös",
                             "id": "eda5da0e-4fef-36bb-d1d0-7cbb7ec42d43",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41648-7",
-                                    "display": "Carboxyh\u00e4moglobin gemischt ven\u00f6s",
+                                    "display": "Carboxyhämoglobin gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2114,14 +2114,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4matokrit gemischt ven\u00f6s",
+                            "display": "Hämatokrit gemischt venös",
                             "id": "5f040406-00f1-331a-e8dc-50240157130c",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41655-2",
-                                    "display": "H\u00e4matokrit gemischt ven\u00f6s",
+                                    "display": "Hämatokrit gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2133,14 +2133,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Kalium gemischt ven\u00f6s",
+                            "display": "Kalium gemischt venös",
                             "id": "ebd30ae5-cd78-39c9-686f-cab875377d98",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41656-0",
-                                    "display": "Kalium gemischt ven\u00f6s",
+                                    "display": "Kalium gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2152,14 +2152,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Laktat gemischt ven\u00f6s",
+                            "display": "Laktat gemischt venös",
                             "id": "02d1b66e-e3aa-37b7-4784-e9284afa8a67",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "19240-1",
-                                    "display": "Laktat gemischt ven\u00f6s",
+                                    "display": "Laktat gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2171,14 +2171,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Meth\u00e4moglobin gemischt ven\u00f6s",
+                            "display": "Methämoglobin gemischt venös",
                             "id": "e927a810-40eb-cd22-be96-218906570d7f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41607-3",
-                                    "display": "Meth\u00e4moglobin gemischt ven\u00f6s",
+                                    "display": "Methämoglobin gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2190,14 +2190,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Natrium gemischt ven\u00f6s",
+                            "display": "Natrium gemischt venös",
                             "id": "c2575748-6a89-2d1c-5c69-ecfc9e278b25",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "41657-8",
-                                    "display": "Natrium gemischt ven\u00f6s",
+                                    "display": "Natrium gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2209,14 +2209,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "O2-S\u00e4ttigung gemischt ven\u00f6s",
+                            "display": "O2-Sättigung gemischt venös",
                             "id": "39734cd4-5a65-ed5e-ac5d-e081fc863f35",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "19224-5",
-                                    "display": "O2-S\u00e4ttigung gemischt ven\u00f6s",
+                                    "display": "O2-Sättigung gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2228,14 +2228,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "pCO2 gemischt ven\u00f6s",
+                            "display": "pCO2 gemischt venös",
                             "id": "182f2bfb-fd4d-e184-a2dc-ab0621f40c3a",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "19212-0",
-                                    "display": "pCO2 gemischt ven\u00f6s",
+                                    "display": "pCO2 gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2247,14 +2247,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "pH gemischt ven\u00f6s",
+                            "display": "pH gemischt venös",
                             "id": "1123c40b-711e-4c5d-7360-05e5e6fb0426",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "19213-8",
-                                    "display": "pH gemischt ven\u00f6s",
+                                    "display": "pH gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2266,14 +2266,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "pO2 gemischt ven\u00f6s",
+                            "display": "pO2 gemischt venös",
                             "id": "97a49ce1-307e-1fa5-d30d-226c505a7535",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "19211-2",
-                                    "display": "pO2 gemischt ven\u00f6s",
+                                    "display": "pO2 gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2285,14 +2285,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Totales H\u00e4moglobin gemischt ven\u00f6s",
+                            "display": "Totales Hämoglobin gemischt venös",
                             "id": "21c53bc8-fc52-8a71-0e26-4c04b738bdbf",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "30351-1",
-                                    "display": "Totales H\u00e4moglobin gemischt ven\u00f6s",
+                                    "display": "Totales Hämoglobin gemischt venös",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2304,14 +2304,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Hb-Derivate, gemischtven\u00f6s (Rechtsherzkatheter)",
+                    "display": "Hb-Derivate, gemischtvenös (Rechtsherzkatheter)",
                     "id": "967a2fb3-3984-bd34-fa51-4655e2f48c40",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Hb-Derivate, gemischtven\u00f6s (Rechtsherzkatheter)",
-                            "display": "Hb-Derivate, gemischtven\u00f6s (Rechtsherzkatheter)",
+                            "code": "Hb-Derivate, gemischtvenös (Rechtsherzkatheter)",
+                            "display": "Hb-Derivate, gemischtvenös (Rechtsherzkatheter)",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -2346,14 +2346,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Faktor VIII (Antihaemophiler Faktor A) Aktivit\u00e4t",
+                            "display": "Faktor VIII (Antihaemophiler Faktor A) Aktivität",
                             "id": "125ef596-bfc8-3379-3bc2-b0e3bda3910a",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "3209-4",
-                                    "display": "Faktor VIII (Antihaemophiler Faktor A) Aktivit\u00e4t",
+                                    "display": "Faktor VIII (Antihaemophiler Faktor A) Aktivität",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2426,14 +2426,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Antithrombin III Aktivit\u00e4t",
+                            "display": "Antithrombin III Aktivität",
                             "id": "d141a46b-10ce-7bb8-e4ad-40712a44b857",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "27811-9",
-                                    "display": "Antithrombin III Aktivit\u00e4t",
+                                    "display": "Antithrombin III Aktivität",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2768,14 +2768,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Thrombozytenreaktivit\u00e4t ADP-induziert",
+                            "display": "Thrombozytenreaktivität ADP-induziert",
                             "id": "11116680-379f-530d-89f2-eae50fe40d72",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "49010-2",
-                                    "display": "Thrombozytenreaktivit\u00e4t ADP-induziert",
+                                    "display": "Thrombozytenreaktivität ADP-induziert",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2787,14 +2787,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "UF-Heparin (anti-FXa Aktivit\u00e4t)",
+                            "display": "UF-Heparin (anti-FXa Aktivität)",
                             "id": "d0331a9a-1ccc-16d7-4bf2-176368a020f7",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "3274-8",
-                                    "display": "UF-Heparin (anti-FXa Aktivit\u00e4t)",
+                                    "display": "UF-Heparin (anti-FXa Aktivität)",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2806,14 +2806,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "H\u00e4mostaseologie Globaltests",
+                    "display": "Hämostaseologie Globaltests",
                     "id": "83ff2328-05ec-825d-2c65-1cfa334ccc6f",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "H\u00e4mostaseologie Globaltests",
-                            "display": "H\u00e4mostaseologie Globaltests",
+                            "code": "Hämostaseologie Globaltests",
+                            "display": "Hämostaseologie Globaltests",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -2846,14 +2846,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "B2-Glykoprotein-I Antik\u00f6rper IgG",
+                            "display": "B2-Glykoprotein-I Antikörper IgG",
                             "id": "1eedc35e-025c-ebf7-2527-fd178933fe81",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "16135-6",
-                                    "display": "B2-Glykoprotein-I Antik\u00f6rper IgG",
+                                    "display": "B2-Glykoprotein-I Antikörper IgG",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -2903,14 +2903,14 @@
                 "system": "fdpg.mii.cds",
                 "version": "1.0.0"
             },
-            "display": "Gerinnung/H\u00e4mostaseologie",
+            "display": "Gerinnung/Hämostaseologie",
             "id": "5501a2a8-5379-0e18-daa3-7227046c5fa4",
             "leaf": false,
             "selectable": false,
             "termCodes": [
                 {
-                    "code": "Gerinnung/H\u00e4mostaseologie",
-                    "display": "Gerinnung/H\u00e4mostaseologie",
+                    "code": "Gerinnung/Hämostaseologie",
+                    "display": "Gerinnung/Hämostaseologie",
                     "system": "fdpg.mii.cds"
                 }
             ]
@@ -3268,14 +3268,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Thyreoglobulin-Antik\u00f6rper",
+                            "display": "Thyreoglobulin-Antikörper",
                             "id": "1c480482-5616-6a6d-5d16-cd536a3b6395",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "8098-6",
-                                    "display": "Thyreoglobulin-Antik\u00f6rper",
+                                    "display": "Thyreoglobulin-Antikörper",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -3306,14 +3306,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Thyreoperoxidase(TPO)-Antik\u00f6rper",
+                            "display": "Thyreoperoxidase(TPO)-Antikörper",
                             "id": "97f556df-6b72-a238-c574-2245b87f62b8",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "8099-4",
-                                    "display": "Thyreoperoxidase(TPO)-Antik\u00f6rper",
+                                    "display": "Thyreoperoxidase(TPO)-Antikörper",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -3325,14 +3325,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "TSH-Rezeptor-Antik\u00f6rper",
+                            "display": "TSH-Rezeptor-Antikörper",
                             "id": "e6286d37-27a4-afcc-9c55-11ed38527d7f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "57416-0",
-                                    "display": "TSH-Rezeptor-Antik\u00f6rper",
+                                    "display": "TSH-Rezeptor-Antikörper",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -3344,14 +3344,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "TSH-Rezeptor-Antik\u00f6rper (TRAK)",
+                            "display": "TSH-Rezeptor-Antikörper (TRAK)",
                             "id": "6ec1081b-4c25-4e33-18b8-63869f7f4fca",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "5385-0",
-                                    "display": "TSH-Rezeptor-Antik\u00f6rper (TRAK)",
+                                    "display": "TSH-Rezeptor-Antikörper (TRAK)",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -3363,14 +3363,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "\u00d6stradiol",
+                            "display": "Östradiol",
                             "id": "fbd0d237-f364-ec28-3be5-fee059bf7bed",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2243-4",
-                                    "display": "\u00d6stradiol",
+                                    "display": "Östradiol",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -3557,14 +3557,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Fols\u00e4ure",
+                            "display": "Folsäure",
                             "id": "029c77ba-3d10-3316-1e57-cbcc398bb676",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2284-8",
-                                    "display": "Fols\u00e4ure",
+                                    "display": "Folsäure",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -3903,14 +3903,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Basophils+Eosinophils+Monocytes\u00a0rel.",
+                            "display": "Basophils+Eosinophils+Monocytes rel.",
                             "id": "8080cf18-4f6e-82eb-6b59-dd3a93e2e2ae",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "32155-4",
-                                    "display": "Basophils+Eosinophils+Monocytes\u00a0rel.",
+                                    "display": "Basophils+Eosinophils+Monocytes rel.",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -4055,14 +4055,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Erythrozyten manuelle Z\u00e4hlung",
+                            "display": "Erythrozyten manuelle Zählung",
                             "id": "9fb13035-52b3-358f-e346-f0c91527e063",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "790-6",
-                                    "display": "Erythrozyten manuelle Z\u00e4hlung",
+                                    "display": "Erythrozyten manuelle Zählung",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -4245,14 +4245,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4matokrit",
+                            "display": "Hämatokrit",
                             "id": "61f6ddea-9f49-d16e-9bbd-205755d0dd28",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "20570-8",
-                                    "display": "H\u00e4matokrit",
+                                    "display": "Hämatokrit",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -4264,14 +4264,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4matokrit zentrifugiert",
+                            "display": "Hämatokrit zentrifugiert",
                             "id": "b9157067-11ad-7f0c-c302-f5b987fed5ff",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "4545-0",
-                                    "display": "H\u00e4matokrit zentrifugiert",
+                                    "display": "Hämatokrit zentrifugiert",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -4283,14 +4283,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4moglobin",
+                            "display": "Hämoglobin",
                             "id": "c98f0946-cfa9-3c3e-352d-6962c52afe29",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "718-7",
-                                    "display": "H\u00e4moglobin",
+                                    "display": "Hämoglobin",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -4359,14 +4359,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Leukozyten manuelle Z\u00e4hlung",
+                            "display": "Leukozyten manuelle Zählung",
                             "id": "0c3a26cf-b41f-c1bc-416b-8ef8ab0d68a6",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "804-5",
-                                    "display": "Leukozyten manuelle Z\u00e4hlung",
+                                    "display": "Leukozyten manuelle Zählung",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -4454,14 +4454,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "MCH (mittleres zellul\u00e4res H\u00e4moglobin)",
+                            "display": "MCH (mittleres zelluläres Hämoglobin)",
                             "id": "186083df-6169-e8c4-705d-9ba768872b84",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "28539-5",
-                                    "display": "MCH (mittleres zellul\u00e4res H\u00e4moglobin)",
+                                    "display": "MCH (mittleres zelluläres Hämoglobin)",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -4473,14 +4473,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "MCHC (mittlere zellul\u00e4re H\u00e4moglobinkonzentration)",
+                            "display": "MCHC (mittlere zelluläre Hämoglobinkonzentration)",
                             "id": "8e6b0fe9-96bb-ae49-7c96-66310287abb2",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "28540-3",
-                                    "display": "MCHC (mittlere zellul\u00e4re H\u00e4moglobinkonzentration)",
+                                    "display": "MCHC (mittlere zelluläre Hämoglobinkonzentration)",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5330,14 +5330,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Eosinophile Granulozyten rel. /K\u00f6rperfl\u00fcssigkeit",
+                            "display": "Eosinophile Granulozyten rel. /Körperflüssigkeit",
                             "id": "c1210f71-7584-ab76-11e0-6d203f3ecf11",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "26452-3",
-                                    "display": "Eosinophile Granulozyten rel. /K\u00f6rperfl\u00fcssigkeit",
+                                    "display": "Eosinophile Granulozyten rel. /Körperflüssigkeit",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5349,14 +5349,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Erythrozyten /K\u00f6rperfl\u00fcssigkeit",
+                            "display": "Erythrozyten /Körperflüssigkeit",
                             "id": "79676e5f-ca0d-8ce7-f87f-0eea4f781cb4",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "23860-0",
-                                    "display": "Erythrozyten /K\u00f6rperfl\u00fcssigkeit",
+                                    "display": "Erythrozyten /Körperflüssigkeit",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5387,14 +5387,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4moglobin /Sondermaterial",
+                            "display": "Hämoglobin /Sondermaterial",
                             "id": "f16ea450-51e6-c0bd-1c44-01c8d47fb99f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "33509-1",
-                                    "display": "H\u00e4moglobin /Sondermaterial",
+                                    "display": "Hämoglobin /Sondermaterial",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5406,14 +5406,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Leukozyten /K\u00f6rperfl\u00fcssigkeit",
+                            "display": "Leukozyten /Körperflüssigkeit",
                             "id": "bdaf4ea8-7490-1aa2-d25b-4641a2b20f55",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "57845-0",
-                                    "display": "Leukozyten /K\u00f6rperfl\u00fcssigkeit",
+                                    "display": "Leukozyten /Körperflüssigkeit",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5482,14 +5482,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Lymphozyten abs. mikr. /K\u00f6rperfl\u00fcssigkeit",
+                            "display": "Lymphozyten abs. mikr. /Körperflüssigkeit",
                             "id": "19e74650-a21a-d687-17f7-53e92f217c57",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "6744-7",
-                                    "display": "Lymphozyten abs. mikr. /K\u00f6rperfl\u00fcssigkeit",
+                                    "display": "Lymphozyten abs. mikr. /Körperflüssigkeit",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5520,14 +5520,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Mononukle\u00e4re Zellen abs. /K\u00f6rperfl\u00fcssigkeit",
+                            "display": "Mononukleäre Zellen abs. /Körperflüssigkeit",
                             "id": "0636e393-5786-e13a-76d1-568dfb5f5457",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "71689-4",
-                                    "display": "Mononukle\u00e4re Zellen abs. /K\u00f6rperfl\u00fcssigkeit",
+                                    "display": "Mononukleäre Zellen abs. /Körperflüssigkeit",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5539,14 +5539,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Mononukle\u00e4re Zellen abs. /Sondermaterial",
+                            "display": "Mononukleäre Zellen abs. /Sondermaterial",
                             "id": "133a71d9-59c2-bb50-4222-498de86fcf5b",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "26490-3",
-                                    "display": "Mononukle\u00e4re Zellen abs. /Sondermaterial",
+                                    "display": "Mononukleäre Zellen abs. /Sondermaterial",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5558,14 +5558,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Mononukle\u00e4re Zellen rel. /K\u00f6rperfl\u00fcssigkeit",
+                            "display": "Mononukleäre Zellen rel. /Körperflüssigkeit",
                             "id": "1537462e-c765-42a2-4d5f-8ab2e1e73830",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "71697-7",
-                                    "display": "Mononukle\u00e4re Zellen rel. /K\u00f6rperfl\u00fcssigkeit",
+                                    "display": "Mononukleäre Zellen rel. /Körperflüssigkeit",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5577,14 +5577,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Mononukle\u00e4re Zellen rel. /SM",
+                            "display": "Mononukleäre Zellen rel. /SM",
                             "id": "de77ed9e-07f5-38c6-4e7f-377dfa5fa2a8",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "26493-7",
-                                    "display": "Mononukle\u00e4re Zellen rel. /SM",
+                                    "display": "Mononukleäre Zellen rel. /SM",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5615,14 +5615,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "H\u00e4matologie Sonstiges",
+                    "display": "Hämatologie Sonstiges",
                     "id": "8e7093db-9830-8e54-d635-92b8a078ae9b",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "H\u00e4matologie Sonstiges",
-                            "display": "H\u00e4matologie Sonstiges",
+                            "code": "Hämatologie Sonstiges",
+                            "display": "Hämatologie Sonstiges",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -5883,14 +5883,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Immunph\u00e4notypisierung",
+                    "display": "Immunphänotypisierung",
                     "id": "8f1f7a35-dce2-a510-baad-1360c66afc73",
                     "leaf": false,
                     "selectable": false,
                     "termCodes": [
                         {
-                            "code": "Immunph\u00e4notypisierung",
-                            "display": "Immunph\u00e4notypisierung",
+                            "code": "Immunphänotypisierung",
+                            "display": "Immunphänotypisierung",
                             "system": "fdpg.mii.cds"
                         }
                     ]
@@ -5902,14 +5902,14 @@
                 "system": "fdpg.mii.cds",
                 "version": "1.0.0"
             },
-            "display": "H\u00e4matologie",
+            "display": "Hämatologie",
             "id": "94b66e9d-6d96-cf9c-3147-aaf56638b523",
             "leaf": false,
             "selectable": false,
             "termCodes": [
                 {
-                    "code": "H\u00e4matologie",
-                    "display": "H\u00e4matologie",
+                    "code": "Hämatologie",
+                    "display": "Hämatologie",
                     "system": "fdpg.mii.cds"
                 }
             ]
@@ -5925,14 +5925,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "CMV-Antik\u00f6rper IgG quant.",
+                            "display": "CMV-Antikörper IgG quant.",
                             "id": "0a110616-80a8-59c5-9c8d-43390b05bfe3",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "7852-7",
-                                    "display": "CMV-Antik\u00f6rper IgG quant.",
+                                    "display": "CMV-Antikörper IgG quant.",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5944,14 +5944,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "CMV-Antik\u00f6rper IgM",
+                            "display": "CMV-Antikörper IgM",
                             "id": "a1f0bb5a-7f2d-ae46-9bcf-08c3aefde26e",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "30325-5",
-                                    "display": "CMV-Antik\u00f6rper IgM",
+                                    "display": "CMV-Antikörper IgM",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -5963,14 +5963,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "HBV c-Antik\u00f6rper IgM quantitativ",
+                            "display": "HBV c-Antikörper IgM quantitativ",
                             "id": "8dbe6690-74b0-add9-5ba0-516cd87df43f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "5185-4",
-                                    "display": "HBV c-Antik\u00f6rper IgM quantitativ",
+                                    "display": "HBV c-Antikörper IgM quantitativ",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -6020,14 +6020,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "HIV-Antik\u00f6rper 1+2",
+                            "display": "HIV-Antikörper 1+2",
                             "id": "2a3544bc-3e48-523b-c350-85e2580110e0",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "7918-6",
-                                    "display": "HIV-Antik\u00f6rper 1+2",
+                                    "display": "HIV-Antikörper 1+2",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7413,14 +7413,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Freies H\u00e4moglobin /Plasma",
+                            "display": "Freies Hämoglobin /Plasma",
                             "id": "d25f1c66-1358-fafb-4ea9-be94e5a2bd73",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "721-1",
-                                    "display": "Freies H\u00e4moglobin /Plasma",
+                                    "display": "Freies Hämoglobin /Plasma",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7470,14 +7470,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Glomerul\u00e4re Filtrationsrate (Schwartz)",
+                            "display": "Glomeruläre Filtrationsrate (Schwartz)",
                             "id": "9751bab4-72ca-46c7-99fa-75fae431306a",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "50384-7",
-                                    "display": "Glomerul\u00e4re Filtrationsrate (Schwartz)",
+                                    "display": "Glomeruläre Filtrationsrate (Schwartz)",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7489,14 +7489,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Glomerul\u00e4re Filtrationsrate /1.7m2 KO (CKD-EPI)",
+                            "display": "Glomeruläre Filtrationsrate /1.7m2 KO (CKD-EPI)",
                             "id": "e0776449-bbd9-3618-00f9-11b9fcd50b9c",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "62238-1",
-                                    "display": "Glomerul\u00e4re Filtrationsrate /1.7m2 KO (CKD-EPI)",
+                                    "display": "Glomeruläre Filtrationsrate /1.7m2 KO (CKD-EPI)",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7508,14 +7508,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Glomerul\u00e4re Filtrationsrate /1.7m2 KO (Cy-C)",
+                            "display": "Glomeruläre Filtrationsrate /1.7m2 KO (Cy-C)",
                             "id": "f3b60db7-597a-cce5-fba3-1c6c3d9d6100",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "50210-4",
-                                    "display": "Glomerul\u00e4re Filtrationsrate /1.7m2 KO (Cy-C)",
+                                    "display": "Glomeruläre Filtrationsrate /1.7m2 KO (Cy-C)",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7527,14 +7527,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Glomerul\u00e4re Filtrationsrate /1.7m2 KO (MDRD)",
+                            "display": "Glomeruläre Filtrationsrate /1.7m2 KO (MDRD)",
                             "id": "3a54e237-ad86-b085-8a36-a3cc524bdf7c",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "33914-3",
-                                    "display": "Glomerul\u00e4re Filtrationsrate /1.7m2 KO (MDRD)",
+                                    "display": "Glomeruläre Filtrationsrate /1.7m2 KO (MDRD)",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7641,14 +7641,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Harns\u00e4ure",
+                            "display": "Harnsäure",
                             "id": "6af2d16b-72a0-a943-39a3-bccfd5396c92",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "3084-1",
-                                    "display": "Harns\u00e4ure",
+                                    "display": "Harnsäure",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7698,14 +7698,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4moglobin A1c",
+                            "display": "Hämoglobin A1c",
                             "id": "907157a9-cb8e-9b74-5d1b-f86d34b4edd0",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "4548-4",
-                                    "display": "H\u00e4moglobin A1c",
+                                    "display": "Hämoglobin A1c",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7717,14 +7717,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4moglobin A1c",
+                            "display": "Hämoglobin A1c",
                             "id": "683bfd90-cddd-ca85-a785-89d0b93299ad",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "17856-6",
-                                    "display": "H\u00e4moglobin A1c",
+                                    "display": "Hämoglobin A1c",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7736,14 +7736,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4moglobin A1c IFCC",
+                            "display": "Hämoglobin A1c IFCC",
                             "id": "657e2e77-9684-86e2-6e7d-661b8f173973",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "59261-8",
-                                    "display": "H\u00e4moglobin A1c IFCC",
+                                    "display": "Hämoglobin A1c IFCC",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7755,14 +7755,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4molysegrad Serumr\u00f6hrchen qualitativ",
+                            "display": "Hämolysegrad Serumröhrchen qualitativ",
                             "id": "cf7d61a0-1632-5b25-6e4c-290c027c0d36",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "20393-5",
-                                    "display": "H\u00e4molysegrad Serumr\u00f6hrchen qualitativ",
+                                    "display": "Hämolysegrad Serumröhrchen qualitativ",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -7774,14 +7774,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Ikteriegrad Serumr\u00f6hrchen qualitativ",
+                            "display": "Ikteriegrad Serumröhrchen qualitativ",
                             "id": "aff8f61f-c9aa-2574-2054-14afc28c26c7",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "20392-7",
-                                    "display": "Ikteriegrad Serumr\u00f6hrchen qualitativ",
+                                    "display": "Ikteriegrad Serumröhrchen qualitativ",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -8059,14 +8059,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Lip\u00e4miegrad Serumr\u00f6hrchen qualitativ",
+                            "display": "Lipämiegrad Serumröhrchen qualitativ",
                             "id": "a54930c7-b417-476a-c948-ddf60e9624f4",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "20394-3",
-                                    "display": "Lip\u00e4miegrad Serumr\u00f6hrchen qualitativ",
+                                    "display": "Lipämiegrad Serumröhrchen qualitativ",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -8154,14 +8154,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Osmolalit\u00e4t",
+                            "display": "Osmolalität",
                             "id": "225c4d3d-66e1-c0f8-2983-e633333c8c05",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2692-2",
-                                    "display": "Osmolalit\u00e4t",
+                                    "display": "Osmolalität",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -8173,14 +8173,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Osmolalit\u00e4t kalkuliert",
+                            "display": "Osmolalität kalkuliert",
                             "id": "de39b234-e526-b57b-3b80-4cd9edca5ecf",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "18182-6",
-                                    "display": "Osmolalit\u00e4t kalkuliert",
+                                    "display": "Osmolalität kalkuliert",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -8268,14 +8268,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Transferrins\u00e4ttigung",
+                            "display": "Transferrinsättigung",
                             "id": "81d05213-8cc7-0b38-7136-ade19df08200",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2502-3",
-                                    "display": "Transferrins\u00e4ttigung",
+                                    "display": "Transferrinsättigung",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -9070,14 +9070,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "LDH /K\u00f6rperfl\u00fcssigkeit",
+                            "display": "LDH /Körperflüssigkeit",
                             "id": "b3e59ff5-7688-9c7c-976b-e8f269e3bf0d",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "14803-1",
-                                    "display": "LDH /K\u00f6rperfl\u00fcssigkeit",
+                                    "display": "LDH /Körperflüssigkeit",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -9728,14 +9728,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Valproins\u00e4ure",
+                            "display": "Valproinsäure",
                             "id": "93697f26-0fcd-f2ea-78f5-85c4ffb8d659",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "4086-5",
-                                    "display": "Valproins\u00e4ure",
+                                    "display": "Valproinsäure",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -9985,14 +9985,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "CO-H\u00e4moglobin",
+                            "display": "CO-Hämoglobin",
                             "id": "572781d5-f7cb-eb94-0dac-745c7bca0d34",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "20563-3",
-                                    "display": "CO-H\u00e4moglobin",
+                                    "display": "CO-Hämoglobin",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -10023,14 +10023,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Meth\u00e4moglobin",
+                            "display": "Methämoglobin",
                             "id": "84bec133-74b8-e53c-7f9a-13ac006d9874",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2614-6",
-                                    "display": "Meth\u00e4moglobin",
+                                    "display": "Methämoglobin",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -10409,14 +10409,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Osmolalit\u00e4t /Urin",
+                            "display": "Osmolalität /Urin",
                             "id": "7d848745-10ae-bc84-bc4f-9ab61b6ab1ec",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "2695-5",
-                                    "display": "Osmolalit\u00e4t /Urin",
+                                    "display": "Osmolalität /Urin",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -10428,14 +10428,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Osmolalit\u00e4t kalkuliet /U",
+                            "display": "Osmolalität kalkuliet /U",
                             "id": "1585110d-28cb-32a6-4668-8e487a0d747f",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "48148-1",
-                                    "display": "Osmolalit\u00e4t kalkuliet /U",
+                                    "display": "Osmolalität kalkuliet /U",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -10561,14 +10561,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "Totalprotein qualitativ Sulfosalazyls\u00e4ureprobe /U",
+                            "display": "Totalprotein qualitativ Sulfosalazylsäureprobe /U",
                             "id": "4fedb772-6ffb-6d53-f014-83ab351c7d7e",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "53525-2",
-                                    "display": "Totalprotein qualitativ Sulfosalazyls\u00e4ureprobe /U",
+                                    "display": "Totalprotein qualitativ Sulfosalazylsäureprobe /U",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -10926,14 +10926,14 @@
                                 "system": "fdpg.mii.cds",
                                 "version": "1.0.0"
                             },
-                            "display": "H\u00e4moglobin /Urin Teststreifen",
+                            "display": "Hämoglobin /Urin Teststreifen",
                             "id": "d8e8afb5-167f-195e-056f-9b4d809f4189",
                             "leaf": true,
                             "selectable": true,
                             "termCodes": [
                                 {
                                     "code": "5794-3",
-                                    "display": "H\u00e4moglobin /Urin Teststreifen",
+                                    "display": "Hämoglobin /Urin Teststreifen",
                                     "system": "http://loinc.org"
                                 }
                             ]

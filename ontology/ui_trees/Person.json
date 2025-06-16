@@ -7,14 +7,14 @@
                 "system": "fdpg.mii.cds",
                 "version": "1.0.0"
             },
-            "display": "Gegenw\u00e4rtiges chronologisches Alter",
+            "display": "Gegenwärtiges chronologisches Alter",
             "id": "ef6554c5-c599-da01-f0ce-4ca3fb04381b",
             "leaf": true,
             "selectable": true,
             "termCodes": [
                 {
                     "code": "424144002",
-                    "display": "Gegenw\u00e4rtiges chronologisches Alter",
+                    "display": "Gegenwärtiges chronologisches Alter",
                     "system": "http://snomed.info/sct"
                 }
             ]

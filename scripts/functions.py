@@ -4,7 +4,7 @@ import pandas as pd
 import psycopg2
 import hashlib
 from psycopg2.extensions import connection  # Import connection type
-from typing import List, Tuple, Dict, Union
+from typing import List, Dict, Union
 
 JSONType = Dict[str, Union[str, int, float, bool, None, List["JSONType"], Dict[str, "JSONType"]]]
 
@@ -18,11 +18,11 @@ def read_json_file(urls: List[str]) -> List[JSONType]:
     return json_data
 
 def create_modules_table(ontology_trees: List[JSONType]) -> None:
-    csv_filename = "modules.csv"
+    modules_filename = "modules.csv"
     columns = ["id", "name", "fdpg_cds_code", "fdpg_cds_system", "fdpg_cds_version", "version"]
     
     df = pd.DataFrame(columns=columns)
-    df.to_csv(csv_filename, index=False, mode="w")  # Create file with headers
+    df.to_csv(modules_filename, index=False, mode="w")  # Create file with headers
 
     for object in ontology_trees:
         id = hashlib.md5(f"{object['children'][0]['context']['code']}{object['children'][0]['context']['system']}{object['children'][0]['context']['version']}{'2.2.0'}".encode()).hexdigest()
@@ -34,7 +34,7 @@ def create_modules_table(ontology_trees: List[JSONType]) -> None:
             "fdpg_cds_version": object['children'][0]['context']['version'],
             "version": "2.2.0"
         }])
-        df.to_csv(csv_filename, index=False, mode="a", header=False) # Append to the CSV file
+        df.to_csv(modules_filename, index=False, mode="a", header=False) # Append to the CSV file
 
 def find_module_id(context_code: str):
     modules = pd.read_csv('modules.csv')
@@ -53,12 +53,12 @@ def traverse_children(ontology: List[JSONType], profile_filter: Union[JSONType, 
             "module_id": module_id,
             "parent_id": parent_id,
             "display": node['display'],
-            "term_codes": json.dumps(node['termCodes']),
+            "term_codes": json.dumps(node['termCodes'], ensure_ascii=False),
             "selectable": node['selectable'],
             "leaf": node['leaf'],
             "time_restriction_allowed": profile_filter['timeRestrictionAllowed'],
             "filter_type": profile_filter['valueDefinition']['type'] if profile_filter['valueDefinition'] is not None else None,
-            "filter_options": json.dumps(profile_filter['valueDefinition']['allowedUnits']) if profile_filter['valueDefinition'] and profile_filter['valueDefinition']['allowedUnits'] != [] else json.dumps(profile_filter['valueDefinition']['selectableConcepts']) if profile_filter['valueDefinition'] and profile_filter['valueDefinition']['selectableConcepts'] != [] else None,
+            "filter_options": json.dumps(profile_filter['valueDefinition']['allowedUnits'], ensure_ascii=False) if profile_filter['valueDefinition'] and profile_filter['valueDefinition']['allowedUnits'] != [] else json.dumps(profile_filter['valueDefinition']['selectableConcepts'], ensure_ascii=False) if profile_filter['valueDefinition'] and profile_filter['valueDefinition']['selectableConcepts'] != [] else None,
             "version": '2.2.0'
         }])
         # Ensure that the 'term_codes' field is correctly serialized without double-escaping

@@ -29,14 +29,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "BIOMAT Eigentum \u00fcbertragen",
+                    "display": "BIOMAT Eigentum übertragen",
                     "id": "dfcbacfb-3dad-20af-318d-fb5c296a7077",
                     "leaf": true,
                     "selectable": true,
                     "termCodes": [
                         {
                             "code": "2.16.840.1.113883.3.1937.777.24.5.3.21",
-                            "display": "BIOMAT Eigentum \u00fcbertragen",
+                            "display": "BIOMAT Eigentum übertragen",
                             "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
                             "version": "1.0.2"
                         }
@@ -827,14 +827,14 @@
                         "system": "fdpg.mii.cds",
                         "version": "1.0.0"
                     },
-                    "display": "Rekontaktierung Verkn\u00fcpfung Datenbanken",
+                    "display": "Rekontaktierung Verknüpfung Datenbanken",
                     "id": "dbb6ad18-7659-b6b7-1918-9155e277f82b",
                     "leaf": true,
                     "selectable": true,
                     "termCodes": [
                         {
                             "code": "2.16.840.1.113883.3.1937.777.24.5.3.27",
-                            "display": "Rekontaktierung Verkn\u00fcpfung Datenbanken",
+                            "display": "Rekontaktierung Verknüpfung Datenbanken",
                             "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
                             "version": "1.0.2"
                         }
@@ -887,14 +887,14 @@
                 "system": "fdpg.mii.cds",
                 "version": "1.0.0"
             },
-            "display": "Rekontaktierung Erg\u00e4nzungen",
+            "display": "Rekontaktierung Ergänzungen",
             "id": "a91ed5aa-4c2c-fa8d-a299-eaea322d8296",
             "leaf": false,
             "selectable": false,
             "termCodes": [
                 {
                     "code": "2.16.840.1.113883.3.1937.777.24.5.3.26",
-                    "display": "Rekontaktierung Erg\u00e4nzungen",
+                    "display": "Rekontaktierung Ergänzungen",
                     "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
                     "version": "1.0.2"
                 }
